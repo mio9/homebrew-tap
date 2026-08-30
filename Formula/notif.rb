@@ -4,14 +4,14 @@ class Notif < Formula
   desc "Notify on command line."
   homepage "https://github.com/mio9/notif"
   license "MIT"
-  version "0.1.3"
+  version "0.1.4"
 
   if Hardware::CPU.arm?
     url "https://github.com/mio9/notif/releases/download/v#{version}/notif-darwin-arm64.tar.gz"
-    sha256 "e8bcfdc567aef6463ca7883ff02fc53fe9d26719f730aaf9c5c242f7e9f31059"
+    sha256 "b5f93a0a80cd8846fcf4f6af3f87bd8425b086aa133db23f0bc0bbff0671b987"
   elsif Hardware::CPU.intel?
     url "https://github.com/mio9/notif/releases/download/v#{version}/notif-darwin-x64.tar.gz"
-    sha256 "c7878af00890384321f662e0bdeb3ec25a0250c26f6a079d766dc1b5542bd922"
+    sha256 "0fd8d2d2295ab9c2793207c44daf1c8e4fb42b7fad65e666301b37ad1cfc568b"
   end
 
   def install
