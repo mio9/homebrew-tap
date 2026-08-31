@@ -1,5 +1,3 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://docs.brew.sh/rubydoc/Formula
 class Dddns < Formula
   desc "DDNS client for any DNS provider"
   homepage "https://github.com/mio9/dddns"

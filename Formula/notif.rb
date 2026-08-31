@@ -1,10 +1,8 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://docs.brew.sh/rubydoc/Formula
 class Notif < Formula
-  desc "Notify on command line."
+  desc "Notify on command-line"
   homepage "https://github.com/mio9/notif"
-  license "MIT"
   version "0.1.4"
+  license "MIT"
 
   if Hardware::CPU.arm?
     url "https://github.com/mio9/notif/releases/download/v#{version}/notif-darwin-arm64.tar.gz"
