@@ -24,10 +24,10 @@ class Dddns < Formula
   version "${VERSION}"
 
   if Hardware::CPU.arm?
-    url "https://github.com/mio9/dddns/releases/download/v#{version}/dddns_v#{version}_darwin_arm64.tar.gz"
+    url "https://github.com/mio9/dddns/releases/download/v#{version}/dddns_darwin_arm64.tar.gz"
     sha256 "${ARM64_SHA}"
   elsif Hardware::CPU.intel?
-    url "https://github.com/mio9/dddns/releases/download/v#{version}/dddns_v#{version}_darwin_amd64.tar.gz"
+    url "https://github.com/mio9/dddns/releases/download/v#{version}/dddns_darwin_amd64.tar.gz"
     sha256 "${AMD64_SHA}"
   end
 
